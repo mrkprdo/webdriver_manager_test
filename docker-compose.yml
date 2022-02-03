@@ -1,0 +1,10 @@
+version: '3'
+services:
+  test_container:
+    container_name: test_container
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+        - ./results:/app/results:Z
+    tty: true

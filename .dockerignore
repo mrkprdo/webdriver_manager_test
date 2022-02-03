@@ -1,0 +1,8 @@
+venv
+venv
+*.txt
+
+geckodriver.log
+*.pyc
+
+__pycache__
